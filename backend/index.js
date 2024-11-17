@@ -1,10 +1,8 @@
-const express =  require ('express');
+const express = require("express");
+
+const mainRouter = require("./routes/index");
 
 const app = express();
 
-
-const router = express.Router();
-module.exports = router;
-
-
-
+app.use("api/v1" , mainRouter);
+app.use("api/v")
