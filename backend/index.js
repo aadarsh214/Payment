@@ -7,4 +7,4 @@ const mainRouter = require("./routes/index");
 const app = express();
 
 app.use("api/v1" , mainRouter);
-app.use("api/v")
+app.listen(3000)
